@@ -40,7 +40,7 @@ public class MockTestInstanceCreation implements IPrototypeClone {
     }
 }
 
-/*
+/* How to call/execute the above code
 MockTestInstanceCreation objMockTestInstance = new MockTestInstanceCreation('Opportunity', '006ak000002lp6KAAQ', 'Mock Test Oppty', 'Prospecting');
 Opportunity objOppty = objMockTestInstance.getOpportunityInstance();
 System.debug('objOppty:::'+objOppty);
